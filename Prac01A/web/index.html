@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator Web Application</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>Welcome to Calculator App</div>
+        <form action="CalculatorServlet" method="post">
+            Enter first number:
+            <input type="text" name="n1"><hr>
+            Enter second number: 
+            <input type="text" name="n2"><hr>
+            Select operation:
+            <input type="radio" name="opr" value="+" CHECKED>ADD
+            <input type="radio" name="opr" value="-">SUB
+            <input type="radio" name="opr" value="*">MUL
+            <input type="radio" name="opr" value="/">DIV<hr>
+            <input type="reset"><input type="submit" value="CALCULATE">
+        </form>
+    </body>
+</html>
